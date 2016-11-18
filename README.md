@@ -30,7 +30,6 @@ That command build the redis caching service. The standard ports of 6379 and 638
 
 The following are available but are optional (since they have default values already set in the `Dockerfile`), however if you change one of the VERSION/DOWNLOAD_ variables, you will need to change all three of them.
 
-* __REDIS_PASSWORD__ - The required password for protecting access to the Redis instance (must be provided while building the Docker image itself)
 * __REDIS_VERSION__ - The version of Redis to run (defaults to 3.2.0).
 * __REDIS_DOWNLOAD_URL__ - The download URL for this version of redis (must match the version)
 * __REDIS_DOWNLOAD_SHA1__ - The SHA1 key to verify the redis download hasn't been tampered with
